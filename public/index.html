@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <title>library</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    input:hover{
+        border-color: aliceblue;
+        background-color: rgb(199, 192, 168);
+    }
+    a.home:hover{
+        bottom: -2px;
+        opacity: 0.6;
+        transition-delay: 0.1s;
+    }
+    span:hover{
+        opacity: 0.6;
+        transition: -0.1s;
+        color:brown;
+        transition-delay: 1s, 250ms;
+    }
+    div.MO:hover{
+        opacity: 1;
+        transition: -0.1s;
+        top: -1vw;
+    }
+</style>
+<script src="script.js"></script>
+</html>
+<body>
+    <div class="navbar">
+        <div class="bar">
+        <a class="home" onclick=home()>HOME</a>
+        <a class="home" onclick=showbio()>BIOGRAPHY</a>
+        <a class="home" onclick=showfic()>FICTION</a>
+        <a class="home" onclick=showpol()>POLITICS</a>
+        <a class="home" onclick=showkid()>KIDS</a>
+        </div>
+        <div class="topic">
+                <img src="image/logo.jpg" height="30px" width="30px">
+            <a>LIBRARY<span>ZONE</span><a></a>
+        </div>
+    </div>
+    <h2>WELCOME TO LIBRARY</h2>
+    <!-- <input class='search' type="text" placeholder="search..." id="search"> -->
+    <div class="all" id="all">
+        <h1 id="bioh">BIOGRAPHY</h1>
+        <div class="biography" id="bio">
+            <div class="MO">
+                <img src="image/MO_BIO .jpeg" >
+                <h4>THE LIGHT WE CARRY</h4>
+                <h5>MICHELLE OBAMA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MO_BIO1.jpeg" >
+                <h4>BECOMING</h4>
+                <h5>MICHELLE OBAMA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/KB_BIO (2).jpeg" >
+                <h4>THE OUTLIER</h4>
+                <h5>KAI BIRD</h5>
+            </div>
+            <div class="MO">
+                <img src="image/KB_BIO.jpeg" >
+                <h4>AMERICAN PROMETHEUS</h4>
+                <h5>KAI BIRD</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO1.jpeg" >
+                <h4>FRIDA</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO2.jpeg" >
+                <h4>ARSHILE GORKY</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO3.jpeg" >
+                <h4>UPPER BOHEMIA</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO4.jpeg" >
+                <h4>FRIDA KAHLO</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO5.jpeg" >
+                <h4>LA COLECCION GELMAN</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO6.jpeg" >
+                <h4>MARY FRANK</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HH_BIO7.jpeg" >
+                <h4>JOAN SNYDER</h4>
+                <h5>HAYDEN HERRERA</h5>
+            </div>
+
+        </div>
+    <h1 id="fich">FICTION</h1>
+        <div class="fiction" id="fic">
+            <div class="MO">
+                <img src="image/HY_FIC.jpeg" >
+                <h4>A LITTLE LIFE</h4>
+                <h5>HANYA YANAGIHARA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HY_FIC (2).jpeg" >
+                <h4>TO PARADISE</h4>
+                <h5>HANYA YANAGIHARA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/HY_FIC (3).jpeg" >
+                <h4>THE PEOPLE IN THE TREES</h4>
+                <h5>HANYA YANAGIHARA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC.jpeg" >
+                <h4>LILAC GIRLS</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC1.jpeg" >
+                <h4>LOST ROSES</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC2.jpeg" >
+                <h4>SUNFLOWER SISTERS</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC3.jpeg" >
+                <h4>THE GOLDEN DOVES</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC4.jpeg" >
+                <h4>NAOMI'S GIFT</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MH_FIC5.jpeg" >
+                <h4>SPRING 2016</h4>
+                <h5>MARTHA HALL KELLY</h5>
+            </div> 
+        </div>
+        <h1 id="polh">POLITICS</h1>
+        <div class="politics" id="pol">
+            <div class="MO">
+                <img src="image/RS_POL1.jpeg" >
+                <h4>AND THE BAND PLAYED ON</h4>
+                <h5>RANDY SHILTS</h5>
+            </div>
+            <div class="MO">
+                <img src="image/RS_POL2.jpeg" >
+                <h4>THE MAYOR OF THE CASTRO STREET</h4>
+                <h5>RANDY SHILTS</h5>
+            </div>
+            <div class="MO">
+                <img src="image/RS_POL3.jpeg" >
+                <h4>CONDUCT UNBECOMING</h4>
+                <h5>RANDY SHILTS</h5>
+            </div>
+            <div class="MO">
+                <img src="image/KB_POL.jpeg" >
+                <h4>THE GOOD SPY</h4>
+                <h5>KAI BIRD</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL1.jpeg" >
+                <h4>TEAMS OF RIVALS</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL2.jpeg" >
+                <h4>NO ORDINARY TIME</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL3.jpeg" >
+                <h4>THE BULLY PULPIT</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL4.jpeg" >
+                <h4>LEADERSHIP</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL5.jpeg" >
+                <h4>WAIT TILL NEXT YEAR</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL6.jpeg" >
+                <h4>Lyndon Johnson and the American Dream</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL7.jpeg" >
+                <h4>The Fitzgeralds and the Kennedys</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DK_POL8.jpeg" >
+                <h4>ELECTING THE PRESIDENT</h4>
+                <h5>DORIS KEARNS GOODWIN</h5>
+            </div>
+        </div>
+        <h1 id="kidh">KIDS</h1>
+        <div class="kids" id="kid">   
+            <div class="MO">
+                <img src="image/AB_KIDS3.jpeg" >
+                <h4>TREASURE ISLAND</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/AB_KIDS4.jpeg" >
+                <h4>THE MAYOR OF THE CASTRO STREET</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/AB_KIDS5.jpeg" >
+                <h4>CONDUCT UNBECOMING</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/AB_KIDS6.jpeg" >
+                <h4>THE GOOD SPY</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/AB_KIDS7.jpeg" >
+                <h4>THE GOOD SPY</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/AB_KIDS8.jpeg" >
+                <h4>THE GOOD SPY</h4>
+                <h5>ALEX A.BLUM</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DEV_KIDS9.jpeg">
+                <h4>DOG MAN</h4>
+                <h5>DEV PILKY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DEV_KIDS10.jpeg">
+                <h4>DOG MAN AND CAT KID</h4>
+                <h5>DEV PILKY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DEV_KIDS11.jpeg">
+                <h4>DOG MAN UNLEASHED</h4>
+                <h5>DEV PILKY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DEV_KIDS12.jpeg">
+                <h4>DOG MAN A TAIL KITTIES</h4>
+                <h5>DEV PILKY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/DEV_KIDS9.jpeg">
+                <h4>DOG MAN</h4>
+                <h5>DEV PILKY</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MO_KIDS.jpeg">
+                <h4>BECOMING</h4>
+                <h5>MICHELLE OBAMA</h5>
+            </div>
+            <div class="MO">
+                <img src="image/MO_KIDS (2).jpeg">
+                <h4>AMERICAN GROWN</h4>
+                <h5>MICHELLE OBAMA</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

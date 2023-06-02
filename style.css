@@ -1,0 +1,146 @@
+.navbar{
+    background: rgb(180,92,58);
+background: linear-gradient(90deg, rgba(180,92,58,1) 0%, rgba(227,172,124,1) 50%, rgba(252,176,69,1) 100%);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar a{
+    /* float: right; */
+    /* text-align: center; */
+    padding: 1px 12px;
+    color: aliceblue;
+    position: relative;
+    align-items: center;
+}
+h2{
+    color: rgb(250, 246, 241);
+    
+}
+span{
+    color: rgba(247, 246, 242, 0.847);
+    position: relative;
+}
+.topic{
+    /* margin-right:10vw; */
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 1.5vh;
+}
+.bar{
+    margin-left: 60vw;
+    position: relative;
+    top:1.5vh;
+    /* bottom: -13px;  */
+    /* align-items: center; */
+}
+/* .search{
+    border: 2px solid rgb(121, 60, 3);
+    border-radius: 20px;
+    Padding: 2px;
+    box-shadow: -1px -1px 0px 1px rgb(197, 193, 193);
+    float: right;
+} */
+
+P{
+    color: aliceblue;
+}
+th{
+    padding: 20px 100px;
+}
+.biography img{
+    height:20vw;
+    width: 20vw;
+}
+.biography{
+    display: flex;
+    gap: 10px;
+    /* display: none; */
+    overflow-x: auto;
+    padding-bottom: 10vw;
+    padding-top: 2VW;
+
+}
+.fiction img{
+    height:20vw;
+    width: 20vw;
+}
+.fiction{
+    display: flex;
+    gap: 10px;
+    /* display: none; */
+    overflow-x: auto;
+    padding-bottom: 10vw;
+    padding-top: 2VW;
+}
+.politics img{
+    height:20vw;
+    width: 20vw;
+}
+.politics{
+    display: flex;
+    gap: 10px;
+    /* display: none; */
+    overflow-x: auto;
+    padding-bottom: 10vw;
+    padding-top: 2VW;
+}
+.kids img{
+    height:20vw;
+    width: 20vw;
+}
+.kids{
+    display: flex;
+    gap: 10px;
+    /* display: none; */
+    overflow-x: auto;
+    padding-bottom: 10vw;
+    padding-top: 2VW;
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.MO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    color: aliceblue;
+}
+/* .all{ 
+    overflow-y: scroll;
+    
+} */
+#bioh{
+    /* display: none; */
+    color: aliceblue;
+}
+#kidh{
+    /* display: none; */
+    color: aliceblue;
+}
+#fich{
+    /* display: none; */
+    color: aliceblue;
+}
+#polh{
+    /* display: none; */
+    color: aliceblue;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html { 
+    background: url(image/library.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
